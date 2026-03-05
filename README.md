@@ -1,4 +1,5 @@
 # NHS Referral to Treatment (RTT) Operational Pressure Analysis – 2025
+## Executive Summary
 This project develops an interpretable operational pressure model using NHS England Referral to Treatment (RTT) waiting list statistics.
 
 Using monthly national data from April to December 2025, the analysis evaluates waiting list dynamics, breach patterns beyond the 18-week constitutional standard, and long-wait concentrations exceeding 52 weeks.
@@ -68,6 +69,7 @@ This project introduces:
 * Governance-aware automation boundaries  
 
 The focus is structured decision support — not automated decision execution.
+## Operational Escalation Model
 Based on the composite pressure score and breach thresholds, an operational escalation structure can be defined for RTT waiting list management.
 
 Level 1 — Stability Monitoring  
@@ -81,18 +83,19 @@ Where long-wait patients (>52 weeks) exceed acceptable thresholds, system-level 
 
 This framework illustrates how operational metrics can inform structured escalation decisions rather than passive monitoring.
 ---
+## Strategic Relevance
+Although based on NHS England RTT statistics, the analytical framework developed in this project is transferable to broader operational environments where demand, backlog, and capacity constraints must be managed simultaneously.
 
+The pressure scoring approach demonstrates how aggregated operational data can support structured prioritisation and escalation planning across complex systems.
+
+The methodology highlights the potential for decision-intelligence frameworks to complement traditional reporting dashboards by translating analytical signals into operational strategy.
 ## Repository Structure
 
 /notebooks → Full analytical workflow  
 /images → Generated charts and visual outputs  
 
 ---
-Although based on NHS England RTT statistics, the analytical framework developed in this project is transferable to broader operational environments where demand, backlog, and capacity constraints must be managed simultaneously.
 
-The pressure scoring approach demonstrates how aggregated operational data can support structured prioritisation and escalation planning across complex systems.
-
-The methodology highlights the potential for decision-intelligence frameworks to complement traditional reporting dashboards by translating analytical signals into operational strategy.
 ## Governance & Analytical Boundaries
 
 * No patient-level identifiable data used  
