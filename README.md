@@ -101,7 +101,6 @@ Level 3 — Critical Pressure
 Where long-wait patients (>52 weeks) exceed acceptable thresholds, system-level intervention is required. Potential responses include temporary capacity redistribution, cross-provider collaboration, or focused backlog recovery programmes.
 
 This framework illustrates how operational metrics can inform structured escalation decisions rather than passive monitoring.
----
 ## Strategic Relevance
 Although based on NHS England RTT statistics, the analytical framework developed in this project is transferable to broader operational environments where demand, backlog, and capacity constraints must be managed simultaneously.
 
