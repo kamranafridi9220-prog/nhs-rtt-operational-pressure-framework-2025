@@ -124,6 +124,20 @@ As a result:
 
 The purpose of the project is therefore decision-support interpretation rather than predictive modelling or operational forecasting.
 
+## Analytical Methodology
+
+The analysis applies structured exploratory analysis to publicly available NHS England RTT incomplete pathway datasets.
+
+The workflow includes:
+
+* Aggregation of monthly national waiting list statistics  
+* Measurement of breach levels beyond the 18-week constitutional standard  
+* Identification of extreme long-wait concentrations exceeding 52 weeks  
+* Month-to-month trend evaluation to detect operational pressure shifts  
+* Construction of a composite pressure score combining backlog scale and breach severity
+
+The pressure score is normalised to allow consistent comparison of operational strain across different time periods.
+
 ## Governance & Analytical Boundaries
 
 * No patient-level identifiable data used  
