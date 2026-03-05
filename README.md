@@ -34,7 +34,18 @@ All analysis is based exclusively on publicly published statistics.
 * Month-on-Month Change  
 * Composite Pressure Score (Normalised Indicator)  
 
----
+## Analytical Methodology
+The analysis applies structured exploratory analysis to monthly RTT incomplete pathway datasets.
+
+The workflow includes:
+
+* Aggregation of provider-level statistics to evaluate national waiting list behaviour  
+* Calculation of percentage breaches beyond the 18-week constitutional standard  
+* Identification of extreme long-wait concentrations exceeding 52 weeks  
+* Month-to-month trend evaluation to detect operational pressure changes  
+* Construction of a composite pressure score combining backlog size and breach severity
+
+The composite indicator is normalised to allow comparison across months, enabling clearer interpretation of operational stress levels over time.
 
 ## Key Findings (Apr–Dec 2025)
 
@@ -44,8 +55,16 @@ All analysis is based exclusively on publicly published statistics.
 * November 2025 represented lowest pressure period in dataset  
 * Certain surgical specialties show sustained long-wait concentration  
 
----
+## Operational Decision Insights
+The analysis highlights several operational patterns within the RTT system during 2025.
 
+First, overall waiting list pressure gradually improved between April and November 2025, suggesting the impact of backlog recovery initiatives and increased treatment capacity.
+
+Second, the proportion of patients waiting beyond 52 weeks declined significantly, indicating targeted efforts to eliminate extreme long waits.
+
+However, specialty-level analysis reveals that certain surgical pathways continue to accumulate long-wait patients. These concentrated bottlenecks suggest that capacity constraints are not evenly distributed across the system.
+
+From an operational perspective, this indicates the need for targeted specialty-level interventions rather than uniform national responses.
 ## Visual Evidence
 
 ### National Waiting List Trend
@@ -94,7 +113,17 @@ The methodology highlights the potential for decision-intelligence frameworks to
 /notebooks → Full analytical workflow  
 /images → Generated charts and visual outputs  
 
----
+## Limitations
+
+This analysis is based on publicly available aggregated statistics rather than patient-level data.
+
+As a result:
+
+* Provider-level variation cannot be explored in depth  
+* Individual treatment pathways cannot be analysed  
+* Causal inference regarding operational interventions is limited
+
+The purpose of the project is therefore decision-support interpretation rather than predictive modelling or operational forecasting.
 
 ## Governance & Analytical Boundaries
 
