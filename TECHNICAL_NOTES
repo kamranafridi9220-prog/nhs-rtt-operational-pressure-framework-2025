@@ -1,0 +1,27 @@
+# Technical Notes
+
+This document summarises the analytical reasoning behind the NHS RTT Operational Pressure Analysis project.
+
+## Pressure Score Construction
+
+The pressure score combines three system indicators:
+
+* Total waiting list size  
+* Percentage of patients waiting beyond 18 weeks  
+* Percentage of patients waiting beyond 52 weeks
+
+These metrics capture different dimensions of operational strain:
+
+Waiting list size reflects demand backlog.
+
+18-week breaches indicate system performance against the constitutional treatment target.
+
+52-week waits signal severe system bottlenecks and potential patient harm risk.
+
+Combining these indicators allows a single interpretable index representing overall system pressure.
+
+## Design Philosophy
+
+The analysis prioritises interpretability and decision support rather than predictive modelling.
+
+The objective is to translate publicly available operational statistics into structured escalation frameworks that can support capacity planning and backlog recovery strategy.
