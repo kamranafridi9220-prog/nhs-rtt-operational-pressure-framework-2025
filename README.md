@@ -101,12 +101,34 @@ Level 3 — Critical Pressure
 Where long-wait patients (>52 weeks) exceed acceptable thresholds, system-level intervention is required. Potential responses include temporary capacity redistribution, cross-provider collaboration, or focused backlog recovery programmes.
 
 This framework illustrates how operational metrics can inform structured escalation decisions rather than passive monitoring.
+
+## Innovation Contribution
+
+This project introduces a composite operational pressure score designed to summarise multiple dimensions of NHS waiting list strain into a single interpretable indicator.
+
+Rather than analysing waiting list size, 18-week breaches, and extreme long waits independently, the model integrates these indicators into a structured signal capable of highlighting periods of elevated operational pressure.
+
+The framework therefore demonstrates how publicly available healthcare statistics can be translated into interpretable decision-support tools rather than remaining as static performance reports.
+
 ## Strategic Relevance
 Although based on NHS England RTT statistics, the analytical framework developed in this project is transferable to broader operational environments where demand, backlog, and capacity constraints must be managed simultaneously.
 
 The pressure scoring approach demonstrates how aggregated operational data can support structured prioritisation and escalation planning across complex systems.
 
 The methodology highlights the potential for decision-intelligence frameworks to complement traditional reporting dashboards by translating analytical signals into operational strategy.
+Policy & System Implications
+
+## Policy and System Implications
+The analysis highlights that operational pressure within the NHS RTT pathway cannot be evaluated through total waiting list size alone.
+
+Although overall waiting list volumes showed gradual improvement during late 2025, specialty-level patterns reveal uneven recovery across treatment pathways. Certain surgical specialties continue to accumulate long-wait patients despite overall system improvement.
+
+This suggests that national performance indicators may mask underlying operational bottlenecks.
+
+Composite indicators such as the pressure score developed in this project can therefore support more granular monitoring of system strain and assist decision-makers in identifying where targeted capacity interventions may be required.
+
+The framework illustrates how analytical signals derived from national datasets can complement existing performance monitoring structures within complex public healthcare systems.
+
 ## Repository Structure
 
 /notebooks → Full analytical workflow  
@@ -124,7 +146,7 @@ As a result:
 
 The purpose of the project is therefore decision-support interpretation rather than predictive modelling or operational forecasting.
 
-## Analytical Methodology
+## Technical Implementation
 
 The analysis applies structured exploratory analysis to publicly available NHS England RTT incomplete pathway datasets.
 
